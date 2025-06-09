@@ -42,11 +42,13 @@
       }
     ],
     "@semantic-release/changelog",
-    "@semantic-release/npm",
+    [
+      "@semantic-release/npm",
       {
         "npmPublish": false,
         "pkgRoot": "."
-      },
+      }
+    ],
     [
       "@semantic-release/git",
       {
